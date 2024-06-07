@@ -1,5 +1,7 @@
 public class MinhaClasse {
     public static void main(String[] args) {
-        System.out.println("Teste bem sucedido.");
+
+        String nome = "Dante";
+        System.out.println(nome+", o foi teste bem sucedido.");
     }
 }
