@@ -24,7 +24,7 @@ public class Ternario {
         c = 23;
         d = 14;
 
-        String resolucao = a==b ? "Verídico" : "Infundado";
+        String resolucao = c==d ? "Verídico" : "Infundado";
 
         System.out.println(resolucao);
 
