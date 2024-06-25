@@ -1,4 +1,4 @@
-public class Break {
+public class ExercicioBreak {
     public static void main(String[] args) {
         for(int z = 1; z <= 6; z++){
             if (z == 4) {
