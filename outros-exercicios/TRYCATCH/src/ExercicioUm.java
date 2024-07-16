@@ -20,10 +20,8 @@ public class ExercicioUm {
         System.out.println("Digite a tua altura");
         double altura = scanner.nextDouble();
 
-        System.out.println("Nome fornecido: " + nome.toUpperCase());
-        System.out.println("Sobrenome fornecido: " + sobrenome.toUpperCase());
-        System.out.println("Idade fornecida: " + idade);
-        System.out.println("Altura fornecida: " + altura);
+        System.out.println("Nome fornecido: " + nome.toUpperCase()+"\nSobrenome fornecido: "+ sobrenome.toUpperCase()+"\nIdade fornecida : " + idade+"\nAltura fornecida: "+altura);
+    
         scanner.close();
 
         }catch(InputMismatchException e){
